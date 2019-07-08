@@ -39,7 +39,7 @@ navigator.getUserMedia(
   { video: true },
   function(stream) {
     var binaryData = [];
-    binaryData.push(data);
+    binaryData.push(stream);
     video.src = window.URL.createObjectURL(
       new Blob(binaryData, { type: "application/zip" })
     );
