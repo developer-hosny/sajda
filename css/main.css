@@ -1,0 +1,99 @@
+body{
+  direction: rtl;
+  text-align: center;
+  background: #2C3E50;
+  overflow: hidden;
+  font-family: 'Droid Arabic Kufi', serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.panel-body{
+  font-family: 'Droid Arabic Kufi', serif;
+}
+table{
+  height: 100%;
+  width: 100%;
+  margin: 25px auto;
+}
+
+.lbl_rakaa_count{
+  font-size: 300px;
+  color: #1ABC9C;
+  margin-top: -75px;
+  z-index:1;
+  font-family: Arial;
+}
+
+.lbl_sajda_count{
+  font-size: 75px;
+  color: #1ABC9C;
+  margin-top: -100px;
+  font-family: Arial;
+}
+
+.pray{
+  z-index:2;
+}
+.btn{
+  width: 200px;
+  font-size: 150%;
+}
+
+.table>tbody>tr>td{
+  border: 1px solid transparent;
+  /*border: 1px solid red;*/
+}
+
+.rakaa_levels_wrapper{
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  margin-top: -375px;
+}
+
+.rakaa_level{
+  height: 100px;
+  width: 100%;
+  background: #F7DE72;
+  margin: 20px 0 20px 0;
+  opacity: .1;
+}
+
+.fake_level{
+  height: 100px;
+  width: 100%;
+  background: transparent;
+  margin: 20px 0 20px 0;
+  opacity: 0;
+}
+
+#btnStop{
+  opacity: .2;
+}
+
+.rakaa_count{
+  overflow: hidden;
+  min-height: 360px;
+  border: 1px solid transparent;
+}
+
+.lbl_option{
+  color: #FFF;
+}
+
+.info{
+  float: right;
+  color: #FFF;
+  cursor: help;
+}
+
+.howto{
+  width: 700px;
+  position: absolute;
+  color: #666;
+  text-align: right;
+  z-index: 999;
+  display: none;
+}
